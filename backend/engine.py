@@ -15,7 +15,11 @@ class MLEngine:
         return [emb.tolist() for emb in self.model.embed(texts)]
 
 ml_engine = MLEngine()
-MODEL_POOL = ["groq/llama3-70b-8192", "gemini/gemini-1.5-flash"]
+MODEL_POOL = [
+    "groq/llama-3.1-70b-versatile", 
+    "gemini/gemini-1.5-flash-latest", 
+    "gemini/gemini-pro"
+]
 
 async def generate_json(prompt: str) -> dict:
     try:
