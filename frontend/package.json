@@ -1,7 +1,7 @@
 {
   "name": "padhai-web",
   "type": "module",
-  "scripts": { "dev": "vite", "build": "tsc && vite build" },
+  "scripts": { "dev": "vite", "build": "vite build" },
   "dependencies": {
     "clsx": "^2.1.1", "lucide-react": "^0.400.0", "motion": "^11.0.0",
     "react": "^18.3.1", "react-dom": "^18.3.1", "react-dropzone": "^14.2.3",
